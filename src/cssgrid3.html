@@ -1,0 +1,61 @@
+<html>
+<head>
+  <title> Justify and Aligh - Css Grids </title>
+  <style>
+    .wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: minmax(100px, auto)
+      grid-gap: 5px;
+      justify-items: stretch;
+      align-items: stretch;
+    }
+
+    .wrapper > div {
+      background: #eee;
+      padding: 1em;
+
+    }
+
+    .wrapper > div:nth-child(odd) {
+      background: #828282;
+
+    }
+
+    #box1 {
+      background: green;
+      grid-colum: 1/4;
+      grid-row: 1/4;
+    }
+
+    #Box2 {
+      background: purple;
+      grid-colum: 1/4;
+      grid-row: 1/4;
+    }
+
+    #Box3 {
+      background: red;
+      grid-colum: 1/4;
+      grid-row: 1/4;
+    }
+
+    #Box4 {
+      background: blue;
+      grid-colum: 1/4;
+      grid-row: 2/3;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div id="Box1"> Box 1</div>
+    <div id="Box2"> Box 2</div>
+    <div id="Box3"> Box 3</div>
+    <div id="Box4"> Box 4</div>
+  </div>
+</body>
+
+</html>

@@ -1,7 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     font-family: sans-serif, Arial, Helvetica, ;
+=======
+    font-family: sans-serif;
+>>>>>>> 2e3f886364056e307d1e42cb155252b9d4411905
 }
 /*Navegação*/
 header{
@@ -20,7 +24,11 @@ header{
     align-items: center;      
 }
 .logo a img {
+<<<<<<< HEAD
     width:200px;
+=======
+    width:225px;
+>>>>>>> 2e3f886364056e307d1e42cb155252b9d4411905
     height:auto;
 }
 .menu{
@@ -69,10 +77,18 @@ nav a:hover{
     font-size: 30px;
     font-family: sans-serif, Arial, Helvetica, ;
     text-transform:uppercase;
+<<<<<<< HEAD
 }
 #button-buscar input{
     width: 300px;
     height: 25px;
+=======
+    color:#0c2736;
+}
+#button-buscar input{
+    width: 420px;
+    height: 40px;
+>>>>>>> 2e3f886364056e307d1e42cb155252b9d4411905
     border-radius: 25px;
     border-style: none;
     margin-top: 25px;
@@ -86,7 +102,10 @@ nav a:hover{
   margin-top: 25px;
   margin-right: 60px;
   z-index: 1;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2e3f886364056e307d1e42cb155252b9d4411905
 } */
 #geral {
     display: flex;
@@ -109,6 +128,10 @@ nav a:hover{
     display:flex;
     flex-wrap: wrap;
 }
+<<<<<<< HEAD
+=======
+/*Artigos - homepage*/
+>>>>>>> 2e3f886364056e307d1e42cb155252b9d4411905
 article {
     flex:1;
     min-width: 300px;
@@ -157,3 +180,92 @@ footer p {
     align-items: center;
     background-color: #f4f4f4;
 }
+<<<<<<< HEAD
+=======
+
+/* Media Query */
+
+@media only screen and (max-width: 600px) {
+    .container{
+        flex-wrap: wrap;
+        width: 370px;
+    }
+
+    .titulo-banner {
+        font-size: 20px;
+    }
+
+    #button-buscar a input {
+        width: 300px;
+    }
+}
+
+/*Artigos- pagina de artigos*/
+
+.img_artigo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.img_artigo img{
+    width:900px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+
+.img_artigo-9 {
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.img_artigo-9 img {
+    width: 800px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+}
+
+.conteudo-artigos h1 img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+#artigos{
+    margin: 0 0 0;
+    padding: 0;
+    border: 0;
+}
+#article7-title, #article-9-title {
+    font-size: 35px;
+    margin-bottom: 35px;
+    margin-top:15px;
+    color:#0c2736;
+    font-family: sans-serif;
+}
+.article-content{
+    font-size:20px;
+    font-family: sans-serif;
+    line-height:29px;
+    color: rgba(62, 96, 119, 0.7);
+}
+.article-content h2{
+    color:#0c2736 ;
+}
+.article-9-content p{
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+.fonte-artigo{
+    text-align:end;
+    color: #c2c2c2;
+    padding: 1px;
+    margin-bottom: 10px;
+}
+#OMS:hover{
+    color: lightcoral;
+}
+>>>>>>> 2e3f886364056e307d1e42cb155252b9d4411905
