@@ -222,6 +222,7 @@ footer p {
   font-family: sans-serif;
   text-align: center;
 }
+<<<<<<< HEAD
 
 #p1 {
   font-size: 0.8em;
@@ -231,24 +232,14 @@ footer p {
 
 artigo img{
     width:900px;
+=======
+.img_artigo img{
+    width:800px;
+>>>>>>> ac375b2ae2ba0cf3887903c8226ad349eb0cd37e
     height: auto;
     margin-top: 10px;
     border-radius: 7px;
 }
-
-.img_artigo-9 {
-    margin-top: 10px;
-    text-align: center;
-    border-radius: 7px;
-}
-
-.img_artigo-9 img {
-    width: 800px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    border-radius: 7px;
-}
-
 .conteudo-artigos h1 img{
     display: flex;
     justify-content: center;
